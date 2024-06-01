@@ -27,7 +27,7 @@ export class TechLevelPage {
 
 
   async ionViewWillEnter() {
-    this.quizList = await this.admin.getAllQuiz();
+    this.quizList = await this.admin.getAllQuiz(); 
     this.getCurrentLevel();
     console.log(this.quizList);
   }
